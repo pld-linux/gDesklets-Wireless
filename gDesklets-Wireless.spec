@@ -10,7 +10,7 @@ Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/wireless-desklet-%{version}.tar.bz2
 # Source0-md5:	5fb527f3473f3142e4ed5a0058e112f3
 URL:		http://www.pycage.de/software_gdesklets.html
-Buildrequires:	python >= 2.3
+BuildRequires:	python >= 2.3
 Requires:	gDesklets
 Provides:	gDesklets-display
 Provides:	gDesklets-sensor
