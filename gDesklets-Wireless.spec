@@ -3,7 +3,7 @@ Summary:	A sensor and a display for wireless LAN control
 Summary(pl):	Czujnik i wy¶wietlacz do kontroli bezprzewodowej sieci LAN
 Name:		gDesklets-%{pname}
 Version:	1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/%{pname}.tar.bz2
@@ -11,6 +11,8 @@ Source0:	http://www.pycage.de/download/gdesklets/%{pname}.tar.bz2
 URL:		http://www.pycage.de/software_gdesklets.html
 Buildrequires:	python >= 2.3
 Requires:	gDesklets
+Provides:	gDesklets-display
+Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
