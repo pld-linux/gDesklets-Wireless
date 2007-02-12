@@ -1,6 +1,6 @@
 %define		pname	Wireless
 Summary:	A sensor and a display for wireless LAN control
-Summary(pl):	Czujnik i wy∂wietlacz do kontroli bezprzewodowej sieci LAN
+Summary(pl.UTF-8):   Czujnik i wy≈õwietlacz do kontroli bezprzewodowej sieci LAN
 Name:		gDesklets-%{pname}
 Version:	0.1
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A sensor and a display for keeping an eye on the connection quality to
 your wireless LAN.
 
-%description -l pl
-Czujnik i wy∂wietlacz do kontrolowania jako∂ci po≥±czeÒ do
+%description -l pl.UTF-8
+Czujnik i wy≈õwietlacz do kontrolowania jako≈õci po≈ÇƒÖcze≈Ñ do
 bezprzewodowej sieci LAN.
 
 %prep
